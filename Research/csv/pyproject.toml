@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "csv-tests"
+version = "0.1.0"
+description = ""
+authors = ["Antonio Zea Jr <zeajantonio@gmail.com>"]
+readme = "README.md"
+packages = [{include = "csv_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.1"
+memory-profiler = "^0.61.0"
+ipykernel = "^6.21.2"
+pandas = "^1.5.3"
+dask = "^2023.2.0"
+inflect = "^6.0.2"
+filprofiler = "^2023.1.0"
+memray = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
